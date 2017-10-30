@@ -12,12 +12,6 @@
   }
 }
 
-.row:nth-child(2){
-  .box {
-    flex-grow: 1;
-  }
-}
-
 .row:nth-child(3){
   .box:nth-child(1) {
     flex-grow: 2;

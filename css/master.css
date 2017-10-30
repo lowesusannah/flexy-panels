@@ -1,8 +1,7 @@
 .box {
-  height: 100%;
-  width: 200px;
   border: 1px solid black;
-  margin: 5px; }
+  margin: 5px;
+  flex-grow: 1; }
 
 .blue {
   background-color: blue; }
@@ -24,9 +23,6 @@
 
 .row:nth-child(1) .box:nth-child(1) {
   flex-grow: 2; }
-
-.row:nth-child(2) .box {
-  flex-grow: 1; }
 
 .row:nth-child(3) .box:nth-child(1) {
   flex-grow: 2; }
