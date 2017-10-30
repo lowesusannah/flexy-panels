@@ -1,0 +1,25 @@
+
+.row {
+  display: flex;
+  width: 1000px;
+  height: 200px;
+  margin-top: 5px;
+}
+
+.row:nth-child(1){
+  .box:nth-child(1) {
+    flex-grow: 2;
+  }
+}
+
+.row:nth-child(2){
+  .box {
+    flex-grow: 1;
+  }
+}
+
+.row:nth-child(3){
+  .box:nth-child(1) {
+    flex-grow: 2;
+  }
+}
